@@ -8,8 +8,8 @@ from webdriver_manager.firefox import GeckoDriverManager
 from time import sleep
 
 # NYT credentials
-EMAIL = 'milton.pagansoto@gmail.com'
-PASSWORD = 'ychwRJ6VHkQMMteaVDo7'
+EMAIL = ''
+PASSWORD = ''
 
 driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 wait = WebDriverWait(driver, 10)  # more realistic wait time
